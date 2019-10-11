@@ -1,8 +1,3 @@
-/**
- * Created by justinhu on 5/22/17.
- */
-// TODO: 5/23/17 Add scoring, rotation bug, rotating around left and not center 
-
 import java.awt.Color;
 import java.awt.Graphics;
 import java.util.ArrayList;
@@ -10,15 +5,6 @@ import java.util.Timer;
 import java.util.concurrent.TimeUnit;
 
 import javax.swing.JPanel;
-
-
-// refresh and row clearing don't go together
-// check if rotate
-// rotate around center
-// implement other basic design like score and increased difficulty
-// shadow
-// space function ^^ shadow uses that
-// display next block
 
 
 public class Board extends JPanel {
@@ -159,10 +145,7 @@ public class Board extends JPanel {
 
     public void rotate() {
 
-        // can't rotate at edges - checkAvailabletoRotate()
-
         // fix it so that it rotates around the middle of the array rather than the left
-        // so edit the x and y values of the thing
 
         int[][] rotatedArray = new int[blocks.get(blocks.size() - 1).getHeight()]
                 [blocks.get(blocks.size() - 1).getWidth()];
