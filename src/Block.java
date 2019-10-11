@@ -1,6 +1,4 @@
-/**
- * Created by justinhu on 5/16/17.
- */
+
 public class Block {
 
     private BlockBoard board;
