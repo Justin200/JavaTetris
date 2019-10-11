@@ -1,6 +1,4 @@
-/**
- * Created by justinhu on 5/22/17.
- */
+
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.awt.event.FocusEvent;
